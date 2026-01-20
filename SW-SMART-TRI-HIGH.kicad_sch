@@ -9086,7 +9086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5924a648-4c52-4bad-a854-c4bee039c180")
-		(property "Reference" "POWER_IN1"
+		(property "Reference" "J4"
 			(at 80.01 39.37 0)
 			(effects
 				(font
@@ -9094,13 +9094,12 @@
 				)
 			)
 		)
-		(property "Value" "PWRIN"
+		(property "Value" "POWER IN"
 			(at 80.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "VP0265840000G"
@@ -9197,7 +9196,7 @@
 		(instances
 			(project "SW-DUAL-10A"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
-					(reference "POWER_IN1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12251,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "POWER_OUT"
+		(property "Value" "POWER OUT"
 			(at 149.86 148.5901 0)
 			(effects
 				(font
