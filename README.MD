@@ -9,4 +9,4 @@
 * Heavy duty terminal block connectors for power in
 * Headers for SWLINK programming and USART1 debug serial port
 
-<IMG src="https://github.com/gordonthree/SW-SMART-DUAL-HIGH/blob/main/SW-SMART-DUAL-HIGH.png?raw=true" width=480>
+<IMG src="https://github.com/gordonthree/SW-SMART-TRI-HIGH/blob/main/SW-SMART-TRI-HIGH.png?raw=true" width=480>
