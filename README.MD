@@ -5,7 +5,7 @@
 * Voltage divider to monitor supply voltage
 * Switch current monitoring and diagnostics
 * Three position screw terminal block for CAN bus connection
-* Three pos. screw terminal block for power-out
+* Five position screw terminal block for power-out
 * Heavy duty terminal block connectors for power in
 * Headers for SWLINK programming and USART1 debug serial port
 
