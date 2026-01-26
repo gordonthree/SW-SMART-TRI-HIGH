@@ -7455,6 +7455,16 @@
 		)
 		(uuid "abe6036b-547a-40fb-9ea7-8beabb620cae")
 	)
+	(label "FB"
+		(at 67.31 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afdc2644-1643-4c6d-adad-ccf315f4870d")
+	)
 	(label "SW2DEN"
 		(at 45.72 166.37 180)
 		(effects
@@ -8140,7 +8150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP65P600X115-15N"
+		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
 			(at 181.61 135.89 0)
 			(effects
 				(font
@@ -9418,7 +9428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d6c72cd-d617-458d-8266-26a149d6b3e6")
-		(property "Reference" "C15"
+		(property "Reference" "CB1"
 			(at 64.7763 64.77 90)
 			(effects
 				(font
@@ -9470,7 +9480,7 @@
 		(instances
 			(project "SW-SMART-TRI-HIGH"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
-					(reference "C15")
+					(reference "CB1")
 					(unit 1)
 				)
 			)
@@ -11410,7 +11420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8772a78d-4c2c-4076-8d55-2cdc30a2336f")
-		(property "Reference" "J1"
+		(property "Reference" "SWD1"
 			(at 330.2 49.5299 0)
 			(effects
 				(font
@@ -11419,7 +11429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SWLINK"
+		(property "Value" "RST 3V3 CLK DIO GND"
 			(at 330.2 52.0699 0)
 			(effects
 				(font
@@ -11428,7 +11438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x05_P2.54mm_Locking"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 327.66 50.8 0)
 			(effects
 				(font
@@ -11473,7 +11483,7 @@
 		(instances
 			(project ""
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
-					(reference "J1")
+					(reference "SWD1")
 					(unit 1)
 				)
 			)
@@ -12328,7 +12338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2433b77-b8ef-4b89-9fa6-48124ee782fe")
-		(property "Reference" "J2"
+		(property "Reference" "USART1"
 			(at 330.2 81.2799 0)
 			(effects
 				(font
@@ -12337,7 +12347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "USART1"
+		(property "Value" "3V3 TX RX GND"
 			(at 330.2 83.8199 0)
 			(effects
 				(font
@@ -12346,7 +12356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:1x04_P2.54mm_Locking"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 327.66 81.28 0)
 			(effects
 				(font
@@ -12388,7 +12398,7 @@
 		(instances
 			(project ""
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
-					(reference "J2")
+					(reference "USART1")
 					(unit 1)
 				)
 			)
