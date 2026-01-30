@@ -7,6 +7,7 @@ Compact power management board intended to control three high-side DC loads. The
 * STM32G0B1KBTx 32-pin microcontroller
 * Three BTS7002 Profet Smart Switches for high side loads, firmware limited to 15 amps each
 * Microchip MCP2562 isolated CAN bus transceiver
+* Automotive grade 5v switchmode power supply and linear 3.3v regulator
 * Voltage divider to monitor supply voltage
 * Switch current monitoring and diagnostics
 * Three position screw terminal block for CAN bus connection
