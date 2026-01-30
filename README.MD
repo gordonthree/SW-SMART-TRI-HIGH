@@ -1,5 +1,10 @@
 # Triple High Side Smart Switch Node
-* STM32G071 Microcontroller on board
+
+Compact power management board intended to control three high-side DC loads. The node provides current monitoring of each load. Temperature and supply voltage are also monitored. This node works with other CAN-CTL modules using the robust CAN bus interface.
+
+<IMG src="https://github.com/gordonthree/SW-SMART-TRI-HIGH/blob/main/SW-SMART-TRI-HIGH.png?raw=true" width=480>
+
+* STM32G0B1KBTx 32-pin microcontroller
 * Three BTS7002 Profet Smart Switches for high side loads, firmware limited to 15 amps each
 * Microchip MCP2562 isolated CAN bus transceiver
 * Voltage divider to monitor supply voltage
@@ -7,6 +12,5 @@
 * Three position screw terminal block for CAN bus connection
 * Five position screw terminal block for power-out
 * Heavy duty terminal block connectors for power in
-* Headers for SWLINK programming and USART1 debug serial port
+* Headers for SWD programming and USART1 debug serial port
 
-<IMG src="https://github.com/gordonthree/SW-SMART-TRI-HIGH/blob/main/SW-SMART-TRI-HIGH.png?raw=true" width=480>
