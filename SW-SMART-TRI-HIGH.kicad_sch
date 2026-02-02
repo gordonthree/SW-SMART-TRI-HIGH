@@ -2945,6 +2945,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Oscillator:SG-5032CAN"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.08 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SG-5032CAN"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm"
+				(at 17.78 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?dl=brief_SG5032CAN&lang=en"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CMOS Clock Oscillator 1 to 75 MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Crystal Clock Oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Oscillator*SMD*SeikoEpson*SG8002LB*5.0x3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SG-5032CAN_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.016 -0.762) (xy -1.016 0.762) (xy -0.508 0.762) (xy -0.508 -0.762) (xy 0 -0.762)
+						(xy 0 0.762) (xy 0.508 0.762) (xy 0.508 -0.762) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SG-5032CAN_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~{ST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_SparkFun-Regulator:LM1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4620,6 +4792,12 @@
 		(uuid "42c5575f-39d2-4812-969a-2d2856bdd3cb")
 	)
 	(junction
+		(at 181.61 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "598789fc-b7db-4860-95fc-6cfdb1a1b093")
+	)
+	(junction
 		(at 92.71 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4678,6 +4856,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f8cc27a-ed08-4b94-ac67-47c09b01e31c")
+	)
+	(junction
+		(at 181.61 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "907ccc26-1fc8-4f52-81de-ccf8a66c7500")
 	)
 	(junction
 		(at 73.66 139.7)
@@ -4756,6 +4940,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de5a1d47-a2b2-4770-836d-2e7e86232463")
+	)
+	(junction
+		(at 170.18 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e15e165a-affa-4167-bb72-9210a1335d1d")
 	)
 	(junction
 		(at 123.19 22.86)
@@ -5217,6 +5407,26 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 45.72) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c932893-7314-4035-9148-be646c409d7c")
+	)
+	(wire
+		(pts
+			(xy 181.61 72.39) (xy 181.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd11773-b32e-4afa-b654-f6d1b7c48ec8")
+	)
+	(wire
+		(pts
 			(xy 46.99 91.44) (xy 46.99 99.06)
 		)
 		(stroke
@@ -5224,6 +5434,16 @@
 			(type default)
 		)
 		(uuid "2e53a3aa-e5ab-4d76-a88d-87f2f2fdb6e1")
+	)
+	(wire
+		(pts
+			(xy 209.55 45.72) (xy 209.55 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef1c7c9-99f2-4e17-b962-53c4a46b506e")
 	)
 	(wire
 		(pts
@@ -5274,6 +5494,16 @@
 			(type default)
 		)
 		(uuid "32469b70-3575-4b5e-b8cd-b6b11c965e9b")
+	)
+	(wire
+		(pts
+			(xy 170.18 83.82) (xy 170.18 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ac9a1c-3511-48fb-b88a-45b591401a09")
 	)
 	(wire
 		(pts
@@ -5397,6 +5627,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 91.44) (xy 181.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c97a52-5212-4e7e-a771-9bbaa638a3fa")
+	)
+	(wire
+		(pts
 			(xy 90.17 129.54) (xy 106.68 129.54)
 		)
 		(stroke
@@ -5477,7 +5717,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 228.6 38.1)
+			(xy 209.55 38.1) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5757,16 +5997,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 215.9 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64516fc1-2bf4-401a-b40c-8bbea395e6f1")
-	)
-	(wire
-		(pts
 			(xy 92.71 31.75) (xy 92.71 34.29)
 		)
 		(stroke
@@ -5867,6 +6097,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 83.82) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc62e37-cbc8-4131-b973-7ed491513f74")
+	)
+	(wire
+		(pts
 			(xy 256.54 132.08) (xy 256.54 144.78)
 		)
 		(stroke
@@ -5927,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 96.52) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72614fa6-393e-45f6-86d6-6f382db935a9")
+	)
+	(wire
+		(pts
 			(xy 45.72 171.45) (xy 49.53 171.45)
 		)
 		(stroke
@@ -5944,6 +6194,16 @@
 			(type default)
 		)
 		(uuid "77314ece-0a91-4f1d-b7d6-76094d06e123")
+	)
+	(wire
+		(pts
+			(xy 163.83 72.39) (xy 163.83 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7885af93-7bf5-40d1-ae66-61ae7ca14442")
 	)
 	(wire
 		(pts
@@ -6147,6 +6407,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 72.39) (xy 163.83 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9298c538-ce45-4732-bbac-220cfb3afdc3")
+	)
+	(wire
+		(pts
+			(xy 181.61 96.52) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d2ce41-ca14-4eeb-a6b3-79806d728a81")
+	)
+	(wire
+		(pts
 			(xy 99.06 95.25) (xy 99.06 87.63)
 		)
 		(stroke
@@ -6154,6 +6434,16 @@
 			(type default)
 		)
 		(uuid "93dfeffb-1f17-4768-b308-e8ebf4187b0a")
+	)
+	(wire
+		(pts
+			(xy 163.83 96.52) (xy 163.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9614865e-db51-4de9-b79e-1cea94d9faf4")
 	)
 	(wire
 		(pts
@@ -6247,6 +6537,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 72.39) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e357bba-d87b-4138-b6de-5bf2770235ab")
+	)
+	(wire
+		(pts
 			(xy 137.16 144.78) (xy 142.24 144.78)
 		)
 		(stroke
@@ -6294,6 +6594,16 @@
 			(type default)
 		)
 		(uuid "a86abf24-b811-4f1f-b094-7c3a09db87b9")
+	)
+	(wire
+		(pts
+			(xy 181.61 69.85) (xy 181.61 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a909729f-3521-4be9-b46e-2029ad6b5efc")
 	)
 	(wire
 		(pts
@@ -6537,6 +6847,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e5187e-85c3-46c1-9a41-51cadd63eb2b")
+	)
+	(wire
+		(pts
 			(xy 322.58 78.74) (xy 321.31 78.74)
 		)
 		(stroke
@@ -6607,7 +6927,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 215.9 40.64)
+			(xy 209.55 38.1) (xy 209.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7426,7 +7746,7 @@
 		(uuid "872f0c27-af71-4659-a29a-e0d6a5554a20")
 	)
 	(label "NRST"
-		(at 222.25 38.1 180)
+		(at 219.71 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7444,6 +7764,16 @@
 			(justify right bottom)
 		)
 		(uuid "993e2ada-d8c7-4652-91fc-544bd7126ed5")
+	)
+	(label "OSC"
+		(at 226.06 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9be24d11-67b4-4c0a-a68f-e8f15df94014")
 	)
 	(label "CAN_L"
 		(at 298.45 132.08 0)
@@ -7544,6 +7874,16 @@
 			(justify left bottom)
 		)
 		(uuid "cc224e4d-9649-412f-b818-94d7707765d0")
+	)
+	(label "OSC"
+		(at 193.04 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d22567c4-50cd-4b1a-9d80-1d4d37518ade")
 	)
 	(label "SW2IS"
 		(at 45.72 171.45 180)
@@ -8150,7 +8490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
+		(property "Footprint" "SamacSys_Parts:SOP65P600X115-15N"
 			(at 181.61 135.89 0)
 			(effects
 				(font
@@ -8483,7 +8823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 49.53 0)
+		(at 209.55 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8492,7 +8832,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e961e4d-1213-4105-b7fd-60f12996e756")
 		(property "Reference" "#PWR020"
-			(at 215.9 55.88 0)
+			(at 209.55 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,7 +8841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 54.61 0)
+			(at 209.55 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8509,7 +8849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 49.53 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8518,7 +8858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 49.53 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8527,7 +8867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 49.53 0)
+			(at 209.55 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9080,6 +9420,76 @@
 			(project "SW-SMART-TRI-HIGH"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bc38027-3eff-4392-ab6f-6c8605f24e14")
+		(property "Reference" "COSC1"
+			(at 166.37 86.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 166.37 88.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fcc58e22-dfdf-4ee5-99ca-e6ca3452904c")
+		)
+		(pin "1"
+			(uuid "8aab621d-dd1a-4d92-a802-16785857d690")
+		)
+		(instances
+			(project "SW-SMART-TRI-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "COSC1")
 					(unit 1)
 				)
 			)
@@ -10311,6 +10721,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 181.61 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b89dfd1-1078-4300-b96c-6a51d378a417")
+		(property "Reference" "#PWR030"
+			(at 181.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 181.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 181.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05032352-8021-4393-bb63-3aab4079f835")
+		)
+		(instances
+			(project "SW-SMART-TRI-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 123.19 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10581,7 +11057,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 215.9 43.18 0)
+		(at 209.55 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10590,7 +11066,7 @@
 		(fields_autoplaced yes)
 		(uuid "69924e30-5287-4fdd-8470-b5c1e0729213")
 		(property "Reference" "CNRST1"
-			(at 218.44 41.9162 0)
+			(at 212.09 41.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +11075,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 218.44 44.4562 0)
+			(at 212.09 44.4562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +11084,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 215.9 43.18 0)
+			(at 209.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +11093,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 43.18 0)
+			(at 209.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +11102,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 215.9 43.18 0)
+			(at 209.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,6 +11391,72 @@
 			(project "SW-SMART-DUAL-HIGH"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7077721a-e7ee-44e2-9528-4851afd2733f")
+		(property "Reference" "#PWR031"
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5003122b-d327-4483-8c60-6aa6eee55256")
+		)
+		(instances
+			(project "SW-SMART-TRI-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13057,6 +13599,80 @@
 			(project "SW-SMART-TRI-HIGH"
 				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:SG-5032CAN")
+		(at 181.61 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d488ec4e-bf47-4f65-a08c-0a08ace0d1e7")
+		(property "Reference" "Y1"
+			(at 194.31 77.3998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 194.31 79.9398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "3525_4pin_OSC:Oscillator_SMD_XO-4Pin_3.2x2.5mm_HandSoldering"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/294/1/ECS_3225MVQ.pdf"
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ECS-3225MVQ CMOS Clock Oscillator 8 MHz"
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8457ee89-27f6-4f68-8022-b4fe22f7ab18")
+		)
+		(pin "4"
+			(uuid "4dd11cde-56a5-4185-be73-30a9ece7c46f")
+		)
+		(pin "1"
+			(uuid "f51a1ae2-9813-444b-8da8-506c2dd68ce8")
+		)
+		(pin "3"
+			(uuid "12980326-a46d-4679-81e8-6ce66d00bc31")
+		)
+		(instances
+			(project "SW-SMART-TRI-HIGH"
+				(path "/08d9f551-d314-4c5c-859f-da02a807087d"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
